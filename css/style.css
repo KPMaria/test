@@ -1,0 +1,338 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+}
+
+span{
+    display: inline-block;
+    background-color: #cf1313;
+    hight: 5px;
+    width: 160px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 10px 0 50px 0;    
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+section{
+    padding: 50px 0 0px;
+}
+
+img{
+    width:100%;
+
+}
+
+h1{
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+}
+
+ h2{font-size: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+h3{font-size: 30px;
+   font-family: "Roboto", sans-serif;
+}
+
+h4{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+p{font-size: 20px;text-align: center;font-family: "Roboto", sans-serif;padding: 8px;}
+
+header{
+    align-items: center;
+    background-image:url(../Image/Background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:multiply;
+    background-color: rgb(0 0 0 / 48%);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    right: 0;
+    left:0;
+    }
+ 
+
+nav h4 span{
+    font-weight: 100;
+    display: inline-block;
+    background-color: #cf131300;
+    hight:0;
+    width: 0;
+    height: 0;
+    border-radius: 0;}
+  
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+     
+}
+ nav ul li{
+    margin: 0 0 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* ------banner section------ */
+.banner{
+    padding: 200px 0 165px;
+    text-align: center;
+    color: white;
+} 
+ .banner h3{
+    font-size: 30px;
+    font-style: italic;
+    margin: 0 10px 0 0;
+}
+ .banner span{
+    display: inline-block;
+    background-color: #cf1313;
+    hight: 5px;
+    width: 160px;
+    height: 5px;
+    border-radius: 5px;}
+
+
+ .banner button{
+    background-color: #cf1313;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 1px solid #cf1313;
+    letter-spacing: 2px;
+    border-radius: 35px;
+    transition: all linear 0.3s;
+}
+
+.banner button:hover{
+    background-color: #cf131300;   
+    letter-spacing: 3px;
+}
+
+/* -----UPCOMING EVENTS---- */
+.event-main{
+    text-align:center;
+}
+.event-main h2{
+    font-size: 40px;
+    margin: 0;
+}
+.event-main span{}
+
+.event{
+    display: flex;
+    width: 80%; 
+    margin: auto; 
+}
+.event-box{
+  width:50%;
+  margin: 20px;
+}
+.event-box img{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 10.95px 10.95px 0 2.6px;
+}
+.event-box h4{
+    font-size: 20px;
+    margin: 35px 0 0 0;
+     color: black;
+}
+.event-box p{
+    text-align: justify;
+}
+
+
+/*EXPLORE THE WORLD */
+
+.explore-section{
+    background-image:url(../Image/father-daughter-beach-sea-38302.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:multiply;
+    background-color: rgba(0, 0, 255, 0.596); 
+    color: white;  
+    background-attachment: fixed; 
+}
+.explore-main{
+    display: flex;
+    padding: 50px 0 ;
+  
+}
+.explore{
+    width: 50%;
+}
+.explore h1{
+    margin: 0;
+}
+.explore p{}
+.explore a{
+    color: white;}
+
+    /* Upcoming tours and destination */
+    .tours-destination{
+        display: flex;
+       margin: 0 80px;
+    }
+    .tours{
+        text-align: justify;
+    width: 33%;
+    padding: 15px;
+    }
+        
+    .tours  h3{
+        margin: 0;
+    }
+    span{
+        margin: 0;
+    }
+    .tours p{
+     padding: 30px 0 0 0;  
+    }
+    .tours a{}
+
+    .tours img{
+        object-fit:cover;  
+    }
+    .small{
+        height: 300px;
+        margin: 0 0 20px 0;
+       
+    }
+    .large{
+        height: 400px;
+        margin: 0 0 20px 0;
+    }
+
+footer{
+    
+background-color: rgb(0, 0, 31);
+    
+text-align: center;
+    
+color: white;
+    
+margin: 0 0 0 0;
+    
+justify-content: center;
+}
+ .content{
+    justify-content: center;
+ }
+ content.p{font-size: 20px;}
+ ul{
+    padding: 0;
+    margin: 0 0 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ ul li{
+    margin: 0 0 0 20px;
+ }
+
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0 25px;
+   }
+   .copyright p{
+    font-size: 16px;
+    padding: 2px;
+   }
+   .fab{
+    font-size: 28px;
+    color:white;
+    padding: 10px 20px;
+   }
+
+   .contact {
+    display:inline
+    color:white
+    
+   }
+   .fab{
+    font-size: 28px;
+    color:white;
+    padding: 10px 20px;
+   }
+  .fab a{
+    color:white
+  }
+/* =========scroll bar design start ===============*/
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(129, 172, 173); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e5bb84; 
+  }
+  }
+  /* ==========scroll bar design end============== */

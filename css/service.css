@@ -1,0 +1,120 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+span{
+    display: inline-block;
+    background-color: #cf1313;
+    hight: 5px;
+    width: 160px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 10px 0 50px 0;    
+}
+h2{font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+}
+
+section{
+    padding: 50px;
+    width:90%;
+}
+
+img{
+    width:100%;
+
+}
+
+
+h3{font-size: 30px;
+   font-family: "Roboto", sans-serif;
+}
+
+a{
+    color: #cf1313;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    align-items: center;
+    background-image:url(../Image/everest-base-camp-dawn-with-sunrise-illuminating-majestic-peaksxa_168058-271.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:multiply;
+    background-color: rgb(0 0 0 / 48%);
+}
+
+/*===========project========== */
+.project-main{}
+.project{ 
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.project-A{
+    width:50%;
+    padding: 30px;
+    margin: 0;
+     justify-content: center;
+}
+.project-A img{
+    height: 500px;
+    object-fit: cover;
+    padding: 0px;
+    width: 100%;}
+
+.project-A h3{
+    text-align:left;
+
+} 
+.project-A a{
+    color: #cf1313;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    justify-content: center;
+} 
+
+.project-B{
+    width:50%;
+    padding: 30px;
+    margin: 0;
+    justify-content: center;
+}
+.project-B img{
+    height: 500px;
+    object-fit: cover;
+    padding: 0px;
+    width: 100%;
+} 
+.project-B h3{
+    text-align: left;
+} 
+
+   
+   
+    footer{
+       
+    }
+    footer a{
+        color: white;
+    }

@@ -1,0 +1,175 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+}
+
+span{
+    display: inline-block;
+    background-color: #cf1313;
+    hight: 5px;
+    width: 160px;
+    height: 5px;
+    border-radius: 5px;
+    margin: 0 0 40px 0;
+    padding: 0 ;    
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+section{
+    padding: 0 20px;
+    width:80%;
+    margin: auto;
+}
+
+img{
+    width:100%;
+}
+
+h1{
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+}
+
+ h2{font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+h3{font-size: 30px;
+    padding: 20px 0 0 0;
+    margin: 0;
+   font-family: "Roboto", sans-serif;
+}
+
+h4{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+
+p{font-size: 20px;text-align: center;font-family: "Roboto", sans-serif;padding: 8px;}
+    
+header{
+    align-items: center;
+    background-image:url(../Image/about\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:multiply;
+    background-color: rgba(0, 0, 0, 0.61);
+
+}
+
+/* =====mission====== */
+.mission-main{
+    margin: 0px 100px;
+    padding: 70px 0 0 0;
+}
+.mission{
+    display: flex;
+    padding: 0px 20px 20px 20px ;
+}
+.mission-a{
+    width:50%;
+    padding:50px 30px;
+    
+}
+.mission-a p{
+    text-align: justify;
+    
+}
+.mission-b{
+    width:50%;
+    padding: 20px 30px;
+}
+.mission-b img{
+    height: 450px;
+    object-fit: cover;
+    padding: 50px 0 0 0;
+    width:100%;
+}
+/* ========core value & experience======= */
+.core-main{
+    padding: 0 0 120px 0;
+    margin: 0px 100px;
+}
+.core{
+    display: ;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.core-value{
+    display: flex;
+    padding: 0px 20px 80px 20px ;
+}
+
+.value-text{
+    width:50%;
+    padding: 0px 30px;
+    
+}
+.value-text h3{}
+
+.value-text p{
+ text-align: justify;
+ padding: 10px 0;
+}
+.value-pic{
+    width:50%;
+    padding: 0px 30px;}
+.value-pic img{
+    height: 425px;
+    object-fit: cover;
+    padding: 0px 0 0 0;
+    width:100%;
+}
+
+.experience{
+    display: flex;
+    padding: 0px 20px 20px 20px
+}
+.experience-text{
+    width:50%;
+    padding: 0px 30px;
+}
+.experience-text h3{}
+.experience-text p{
+    text-align: justify;
+    padding: 0 0 20px 0;
+}
+.experience-pic{
+    width:50%;
+    padding: 0px 30px;
+}
+.experience-pic img{
+    height: 380px;
+    object-fit: cover;
+    padding: 0px 0 0 0;
+    width:100%;}
+
+
